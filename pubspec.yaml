@@ -39,6 +39,7 @@ dependencies:
   url_launcher: ^6.2.2
   url_strategy: ^0.2.0
   hooks_riverpod: ^2.4.9
+  flutter_hooks: ^0.20.3
 
 dev_dependencies:
   flutter_test:

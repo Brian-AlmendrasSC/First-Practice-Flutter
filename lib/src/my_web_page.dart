@@ -8,7 +8,7 @@ class MyWebPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double maxWidth = width > 1200 ? 1200 : width;
+    double maxWidth = width > 1270 ? 1270 : width;
     // TODO: implement build
     return Scaffold(
         body: Center(
@@ -19,7 +19,7 @@ class MyWebPage extends StatelessWidget {
           Expanded(
               child: SingleChildScrollView(
             child: Column(
-              children: [HomeContent(), FeaturesContent()],
+              children: [HomeContent(), FeaturesContent(), HomeContent()],
             ),
           ))
         ]),
